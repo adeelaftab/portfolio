@@ -1,10 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import SocialBtns from './SocialBtns';
 import ContactInfo from './ContactInfo';
 import ContactForm from './ContactForm';
 
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
 export default function Contact({ data, socialData }) {
   const { sectionHeading, contactImg, contactInfo } = data;
+  useEffect(() => {
+    // Dynamically load the LinkedIn badge script
+    const script = document.createElement('script');
+    script.src = "https://platform.linkedin.com/badges/js/profile.js";
+    script.async = true;
+    script.defer = true;
+    script.type = "text/javascript";
+    document.body.appendChild(script);
+
+    return () => {
+      // Cleanup to remove the script if the component unmounts
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <section id="contactus" className="section contactus-section">
       <div className="container">
@@ -30,8 +47,32 @@ export default function Contact({ data, socialData }) {
               </div>
             </div>
             <div className="col-lg-4 pe-md-5">
+              
               <div className="contact-banner d-none d-lg-block">
-                <img src={contactImg} title alt="Avatar" />
+                <div className="linkedin-badge">
+                {/* Add your LinkedIn badge HTML here */}
+                
+                  <a
+                    className="LI-simple-link"
+                    href="https://www.linkedin.com/in/adeel-aftab"
+                    target="_blank" rel="noreferrer"
+                  >
+                    <div
+                      className="badge-base LI-profile-badge"
+                      data-version="v1"
+                      data-size="medium"
+                      data-locale="en_US"
+                      data-type="vertical"
+                      data-theme="dark"
+                      data-vanity="adeel-aftab"
+                    >
+                    </div>
+                  </a>
+              </div>
+                {/* <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="adeel-aftab" data-version="v1">
+                  <a class="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/adeel-aftab?trk=profile-badge">Adeel Aftab</a>
+                </div> */}
+                {/* <img src={contactImg} title alt="Avatar" /> */}
               </div>
               <ContactInfo contactInfoData={contactInfo} />
               <SocialBtns socialBtns={socialData} />
