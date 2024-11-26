@@ -1,0 +1,311 @@
+{
+  "personelInfo": {
+    "imgUrl": "/images/profile_picture.jpeg",
+    "name": "Adeel Aftab",
+    "heading": "Hey! I’m Adeel",
+    "typingText": [
+      "I'm a Full Stack Developer",
+      1500,
+      "I'm a Principle Software Engineer",
+      1500
+    ],
+    "description": "With 10+ years of experience in software development and leadership, I am passionate about transforming innovative ideas into reality. I excel in critiquing and enhancing system architecture, design and processes to drive continuous improvement. As a <b style='color: #0788ff'>Full Stack Principle Team Leader</b> for the past 5 years, I have successfully led teams through complex transitions, delivering high-impact results in fast-paced environments.",
+    "btnText": "Get in touch",
+    "btnUrl": "contactus"
+  },
+  "socialBtns": [
+    {
+      "icon": "fa-brands:facebook-f",
+      "iconBgClass": "facebook",
+      "href": "https://www.facebook.com/adiiaftab/"
+    },
+    {
+      "icon": "fa-brands:github",
+      "iconBgClass": "github",
+      "href": "https://github.com/adeelaftab/"
+    },
+    {
+      "icon": "fa-brands:linkedin-in",
+      "iconBgClass": "linkedin",
+      "href": "https://www.linkedin.com/in/adeel-aftab/"
+    },
+    {
+      "icon": "fa-brands:whatsapp",
+      "iconBgClass": "whatsapp",
+      "href": "https://wa.me/923135412269?text=Hello%20there%20i%20have%20seen%20your%20portfolio%20and%20i%20am%20interested%20in%20your%20services%20can%20we%20talk%20more%20about%20it%20"
+    }
+  ],
+  "brands": [
+    {
+      "src": "/images/streamza.png",
+      "alt": "Streamza"
+    },
+    {
+      "src": "/images/mediac.svg",
+      "alt": "Mediac"
+    },
+    {
+      "src": "/images/beeah.png",
+      "alt": "Beeah"
+    },
+    {
+      "src": "/images/hamriyah.png",
+      "alt": "Hamriyah Waste Permit Portal"
+    },
+    {
+      "src": "/images/prometheus.jpeg",
+      "alt": "Pprometheus"
+    },
+    {
+      "src": "/images/Lappeland.webp",
+      "alt": "Lappeland"
+    },
+    {
+      "src": "/images/syrian-orphans.png",
+      "alt": "Syrian Orphans"
+    }
+  ],
+  "about": {
+    "imgSrc": "/images/profile_picture_2.png",
+    "miniTitle": "About Me",
+    "title": "I AM AVAILABLE FOR <b style='color: #0788ff'>REACT</b> & <b style='color: #0788ff'>REACT NATIVE</b> DEVELOPMENT PROJECTS",
+    "description": "As a dedicated Full Stack Developer for the last 10 years, specializing in <b style='color: #0788ff'>React</b> and <b style='color: #0788ff'>React Native</b>, I bring innovative ideas to life with scalable and efficient code. With a passion for creating seamless web and mobile applications, I focus on delivering robust solutions tailored to meet client needs and exceed user expectations.",
+    "funfacts": [
+      {
+        "title": "Projects Completed",
+        "number": 40
+      },
+      {
+        "title": "Years Experience",
+        "number": "10+"
+      },
+      {
+        "title": "English Proficiency (B2)",
+        "number": "8-9/10"
+      }
+    ],
+    "btnText": "Get in touch",
+    "btnUrl": "contactus"
+  },
+  "projects": {
+    "sectionHeading": {
+      "miniTitle": "My Work",
+      "title": "RECENT PROJECT"
+    },
+    "allProjects": [
+      {
+        "thumbUrl": "/images/lappeland_project.png",
+        "title": "Lappeland",
+        "subTitle": "Frontend, backend",
+        "details": {
+          "title": "Website Design/Development for online sticker design selling platform",
+          "description": "Lappeland.no is a Norwegian website specializing in personalized name labels and decorative items. Their main offerings include:<br><b>Navnelapper (Name Labels):</b> Customizable labels for personal belongings, ideal for children’s school supplies and other everyday items.<br><b>Minilapper and Store Navnelapper:</b> Labels of different sizes for small or larger items.<br><b>Veggdekor and Høydemåler:</b> Wall decorations and height measurement tools, perfect for enhancing home interiors, especially for families with kids.<br>The platform promises free shipping on all orders, quick delivery within 2-4 days, and a satisfaction guarantee, ensuring a refund if the customer is not satisfied. They provide simple and intuitive customization tools to design unique products.",
+          "type": "Website",
+          "langages": "PHP, Next JS, Node, Bootstrap",
+          "platform": "React",
+          "country": "Norway",
+          "url": "www.lappeland.no"
+        }
+      },
+      {
+        "thumbUrl": "/images/prometheus_project.png",
+        "title": "Prometheus Alts",
+        "subTitle": "Mobile and Webiste Design Development",
+        "details": {
+          "title": "React Native Mobile Application",
+          "description": "Prometheus Alternative Investments (Prometheus Alts) is a financial technology and social network platform founded in 2020. It aims to modernize the investment landscape by connecting accredited investors with hedge funds, venture capital, private equity, crypto funds, and other alternative investment opportunities. It was created by industry experts, including its CEO Michael Wang, a former hedge fund manager, to democratize access to investment knowledge and opportunities.<br><br>The platform is unique in combining a social network with an investment marketplace. It fosters community-driven learning and interaction among investors and fund managers, while also facilitating high-impact capital connections.",
+          "type": "Mobile APP",
+          "langages": "React, React Native, microservices, Express",
+          "platform": "Node",
+          "country": "USA",
+          "url": "www.prometheusalts.com/"
+        }
+      },
+      {
+        "thumbUrl": "/images/beeah_project.png",
+        "title": "Beea’h Waste Permit Portal",
+        "subTitle": "(Sharjah Govt) - Web App",
+        "details": {
+          "title": "Beea’h Waste Permit Portal (Sharjah Govt) (Mar 2020 – Nov 2020)",
+          "description": "System was developed for Sharjah Govt’s depts. (Municipality & Beea’h) for online permits management system. Main objective of system was to provide business entity in Sharjah an online portal to apply for waste permit. It was designed to register the entity and entity apply for the permit and pay fee online via Etisalat payment gateway. It was integrated with the SAP API for accounts, Etisalat payment gateway and Blockchain. System is consisting of new and old permit, wallet and transaction history.",
+          "type": "Website",
+          "langages": "C#, HTML, CSS, JS, bootstrap",
+          "platform": "ASP.NET",
+          "country": "UAE",
+          "url": "wastepermit.beeah.ae"
+        }
+      },
+      {
+        "thumbUrl": "/images/syrian-orphans_project.png",
+        "title": "Syrian Orphans System",
+        "subTitle": "Website Design",
+        "details": {
+          "title": "Syrian Orphans Management System",
+          "description": "The system was designed to link the orphans in Syria with there sponsors around the globe. Sponsors can see the status of orphans his images videos and also the detail regarding help(food education and residence). Coordinators are able to physically communicate with the sole guardian of orphans on sponsors behalf and update the related data on the portal. Guardians are the sole responsible of the orphans and his activity related to Rohan is updated to portal for sponsor to view. The images and videos of the orphans where maintained via Azure Media Services.",
+          "type": "Website",
+          "langages": "PHP, HTML, CSS, JS, Bootstrap",
+          "platform": "WordPress",
+          "country": "USA based in Syria",
+          "url": "syrianorphans.org"
+        }
+      },
+      {
+        "thumbUrl": "/images/streamza_project.png",
+        "title": "Streamza Streaming Services",
+        "subTitle": "Website Design and Development",
+        "details": {
+          "title": "Streamza Streaming Service",
+          "description": "Streamza is a Bit-Torrent service that offers access to gazillions of torrents on your phone, tablet, desktop or a TV set Online. Streamza is a cloud-based platform where you can download the torrents watch them on Streamza or Roku devices if videos or you can download share with friends. Later the front end was updated to Angular along with PWA Application",
+          "type": "Website",
+          "langages": "PHP, HTML, CSS, JS",
+          "platform": "PHP",
+          "country": "UK",
+          "url": "www.streamza.com"
+        }
+      }
+    ]
+  },
+  "service": {
+    "sectionHeading": {
+      "miniTitle": "SERVICES",
+      "title": "<span>services</span> I am providing"
+    },
+    "allService": [
+      {
+        "imgUrl": "/images/pse-service.jpeg",
+        "title": "Principal Software Engineer",
+        "subTitle": "Leads complex software development projects, defines system architectures, mentors teams, and ensures scalable and maintainable solutions.",
+        "icon": "bi:code-slash",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/images/front-end-development-services.jpeg",
+        "title": "Frontend website Development",
+        "subTitle": "Specialized in responsive/user-friendly interfaces and interactive aspects users engage with, bridging the gaps of design & functionality.",
+        "icon": "bi:brush-fill",
+        "ratings": 4.8
+      },
+      {
+        "imgUrl": "/images/back-end-development-service.jpeg",
+        "title": "Backend Architecture and API Development",
+        "subTitle": "Development, designing and maintaining server-side applications to ensure scalability, performance, and secure data management.",
+        "icon": "bi:server",
+        "ratings": 5
+      },
+      {
+        "imgUrl": "/images/mobile-app-development-services.jpeg",
+        "title": "React Native Mobile App Development",
+        "subTitle": "Builds mobile applications, ensuring seamless user experiences with optimized code, smooth interfaces, and fast deployments.",
+        "icon": "mdi:mobile-phone-text",
+        "ratings": 4.9
+      }
+    ]
+  },
+  "experience": {
+    "sectionHeading": {
+      "miniTitle": "Experience",
+      "title": "My Work <span>Experience</span>"
+    },
+    "allExperience": [
+        {
+          "designation": "Principal Software Engineer",
+          "company": "Softoo | REMOTE",
+          "duration": "MAR 2022 - PRESENT",
+          "jobType": "Full time",
+          "companyTitle": "Role at Softoo",
+          "jobDescription": "Managing and developing Front End/Back End Modules. Working on AWS Lambda, Docker along with Local Stack for Web Apps. Collaborating with cross-functional teams to design and implement software solutions. Conducting code reviews and providing technical guidance to team members. Implementing best practices for software development and deployment. Troubleshooting and resolving technical issues. Participating in the full software development lifecycle from planning to deployment."
+        },
+        {
+          "designation": "Lead Trainer",
+          "company": "Techlift BootCamp (PSEB) | Islamabad",
+          "duration": "JUN 2022 - DEC 2023",
+          "jobType": "Part time",
+          "companyTitle": "Role at Techlift BootCamp",
+          "jobDescription": "Led training sessions for Non-IT and IT individuals at Bahria University and Foundation University Islamabad. Taught programming fundamentals including React, Node, Express, NoSQL, and SQL databases. Developed and implemented curriculum for multiple training sessions. Provided hands-on coding exercises and projects for practical learning. Mentored and guided participants in understanding complex programming concepts. Conducted assessments to track progress and provide feedback."
+        },
+        {
+          "designation": "Front End Lead Architect",
+          "company": "Appscience | REMOTE",
+          "duration": "FEB 2021 - MAR 2022",
+          "jobType": "Full time",
+          "companyTitle": "Role at Appscience",
+          "jobDescription": "Led and oversaw Front End Architecture development. Managed React Native for Mobile Apps and React for Web App projects. Implemented and maintained CI/CD Pipeline using Fastlane, TestFlight, and Google Play Store beta programs. Collaborated with cross-functional teams to ensure successful project delivery. Conducted code reviews and provided technical guidance to team members."
+        },
+        {
+          "designation": "Lead Full Stack Developer",
+          "company": "United Arab Emirates Trading Co | Dubai",
+          "duration": "OCT 2019 - FEB 2021",
+          "jobType": "Full time",
+          "companyTitle": "Role at UAE Trading Co",
+          "jobDescription": "Monitored team member work and prioritized IT tasks. Engaged in focused planning and goal development. Led Front End team in developing Business Intelligence Applications for trend, sale, and demand reporting. Developed a Self-service Portal Application for HR operations and employees using React.js, .Net Core, and MS-SQL. Conducted regular code reviews to ensure code quality and adherence to best practices."
+        },
+        {
+          "designation": "Lead Application Developer",
+          "company": "UGW Consulting | REMOTE",
+          "duration": "FEB 2018 - OCT 2019",
+          "jobType": "Full time",
+          "companyTitle": "Role at UGW Consulting",
+          "jobDescription": "Led a team of developers in task completion and progress monitoring. Collaborated with IT Project Managers to create strategic plans and develop new modules. Developed cloud storage web and mobile applications using Yii2 (PHP), PostgreSQL, and React/React Native. Maintained and enhanced existing systems with new modules."
+        },
+        {
+          "designation": "Senior Full Stack Application Developer",
+          "company": "Maalik Creative Engineers | Islamabad",
+          "duration": "AUG 2015 - JAN 2018",
+          "jobType": "Full time",
+          "companyTitle": "Role at Maalik Creative Engineers",
+          "jobDescription": "Collaborated with IT Project Managers to develop focused plans and solutions. Monitored team progress and ensured deadlines were met. Developed retail sale applications for garment and medicine stores. Created a React.js portal for marketing and SMS services. Developed and deployed a point-of-sale application for hotels and restaurants in Pakistan and Dubai."
+        },
+        {
+          "designation": "Junior Software Developer",
+          "company": "Trees Technologies | Islamabad",
+          "duration": "JUN 2014 - AUG 2015",
+          "jobType": "Full time",
+          "companyTitle": "Role at Trees Technologies",
+          "jobDescription": "Developed web-based modules in Yii (PHP) and MySQL. Worked on cloud-based Medical System (Olivecliq). Created an Automated Laboratory Management System (LMS) for RIC and other clients. Developed an Online Appointment Management System for hospitals and integrated it with Olivecliq."
+        }
+      ]
+  },
+  "testimonial": {
+    "sectionHeading": {
+      "miniTitle": "Testimonial",
+      "title": "Over <span>8,000+</span> <br /> PEOPLE TRUST ME"
+    },
+    "allTestimonial": [
+      {
+        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
+        "avatarImg": "/images/avatar-1.jpg",
+        "avatarName": "Pamela Anders",
+        "avatarCompany": "Company Name"
+      },
+      {
+        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
+        "avatarImg": "/images/avatar-2.jpg",
+        "avatarName": "Pamela Anders",
+        "avatarCompany": "Company Name"
+      },
+      {
+        "reviewText": "Donec tellus sem, tempor ac purus a, porttitor lobortis purus. Etiam quis nisl eget ex pulvinar consectetur. Suspendisse potenti. Cras non elementum risus. Fusce massa tellus, consequat a rutrum et, aliquam a lacus. Quisque viverra egestas tincidunt. Nunc nec nisi sed enim consectetur ullamcorper. Vestibulum at neque tortor. Pellentesque urna enim, ultricies at tortor eu, elementum egestas leo. In hac habitasse platea dictumst.",
+        "avatarImg": "/images/avatar-3.jpg",
+        "avatarName": "Pamela Anders",
+        "avatarCompany": "Company Name"
+      }
+    ]
+  },
+  "contact": {
+    "sectionHeading": {
+      "title": "Let’s Discuss about the services you require",
+      "subTitle": "Always available for freelancing if the right project comes along, Feel free to contact me."
+    },
+    "contactImg": "/images/contact-us.jpeg",
+    "contactInfo": [
+      {
+        "title": "Write an e-mail",
+        "email": "adeel.aftab@live.com"
+      },
+      {
+        "title": "Call/WhatsApp",
+        "tel": "+92 313 541 2269"
+      }
+    ]
+  }
+}
