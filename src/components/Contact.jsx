@@ -6,7 +6,7 @@ import ContactForm from './ContactForm';
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
 export default function Contact({ data, socialData }) {
-  const { sectionHeading, contactImg, contactInfo } = data;
+  const { sectionHeading, contactInfo } = data;
   useEffect(() => {
     // Dynamically load the LinkedIn badge script
     const script = document.createElement('script');
@@ -69,10 +69,6 @@ export default function Contact({ data, socialData }) {
                     </div>
                   </a>
               </div>
-                {/* <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="adeel-aftab" data-version="v1">
-                  <a class="badge-base__link LI-simple-link" href="https://pk.linkedin.com/in/adeel-aftab?trk=profile-badge">Adeel Aftab</a>
-                </div> */}
-                {/* <img src={contactImg} title alt="Avatar" /> */}
               </div>
               <ContactInfo contactInfoData={contactInfo} />
               <SocialBtns socialBtns={socialData} />
