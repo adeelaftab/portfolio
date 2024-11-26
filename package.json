@@ -1,5 +1,5 @@
 {
-  "name": "jenna-react",
+  "name": "adeel-aftab",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -45,6 +45,7 @@
       "last 1 safari version"
     ]
   },
+  "homepage": "https://adeelaftab.github.io/portfolio",
   "devDependencies": {
     "@iconify/react": "^4.1.1",
     "gh-pages": "^6.2.0",
